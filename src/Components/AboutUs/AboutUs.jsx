@@ -1,5 +1,4 @@
 
-import PropTypes from 'prop-types';
 
 const AboutUs = props => {
     return (
@@ -12,7 +11,7 @@ const AboutUs = props => {
 
                 <div className='grid md:grid-cols-3 justify-items-center border-2  bg-green-200 border-[#5bec91]  items-center container mx-auto my-5 p-10 rounded-xl gap-5'>
                     <div className=''>
-                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100">
+                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100 transition hover:scale-105 overflow-hidden">
                             <figure>
                                 <img
                                     className='p-5 rounded-2xl w-full h-[350px] object-cover'
@@ -26,7 +25,7 @@ const AboutUs = props => {
                         </div>
                     </div>
                     <div className=''>
-                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100">
+                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100 transition hover:scale-105 overflow-hidden">
                             <figure>
                                 <img
                                     className='p-5 rounded-2xl w-full h-[350px] object-cover'
@@ -40,7 +39,7 @@ const AboutUs = props => {
                         </div>
                     </div>
                     <div className=''>
-                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100">
+                        <div className="card card-compact border-2 border-[#5bec91] bg-gray-100 transition hover:scale-105 overflow-hidden">
                             <figure>
                                 <img
                                     className='p-5 rounded-2xl w-full h-[350px] object-cover'

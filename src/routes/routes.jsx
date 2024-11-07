@@ -14,6 +14,7 @@ const routes = createBrowserRouter([
             {
                 path: "/",
                 element: <Home />,
+                loader: ()=> fetch('../DeboloparData.json')
             },
             {
                 path: "/students",
