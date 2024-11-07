@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import logo from '../../assets/spiLogo.png';
 import { NavLink } from 'react-router-dom';
 import './Navbar.css'
-const Navbar = props => {
+const Navbar = () => {
     return (
         <div>
             <div className="grid lg:grid-cols-2 gap-5 justify-items-center bg-green-300 py-4 px-10">

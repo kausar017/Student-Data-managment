@@ -3,8 +3,9 @@ import Home from '../Components/Home/Home';
 import Students from '../Components/Students/Students';
 import Teachers from '../Components/Teachers/Teachers';
 import Registration from '../Components/Registration/Registration';
-import Login from '../Components/Login/Login';
 import MainLayout from '../Components/mainLayout/MainLayout';
+import Login from "../Components/Login/Login";
+
 
 const routes = createBrowserRouter([
     {
@@ -30,7 +31,7 @@ const routes = createBrowserRouter([
             },
             {
                 path: "/login",
-                element: <Login />,
+               element: <Login></Login>
             },
         ],
     },
