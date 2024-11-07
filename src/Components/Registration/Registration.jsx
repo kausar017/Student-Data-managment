@@ -7,7 +7,7 @@ const Registration = props => {
         <div className='flex flex-col justify-center items-center min-h-[585px] bg-gray-200'>
             <div className='flex flex-col max-w-[300px] border-2 border-green-500 p-3 rounded-xl bg-green-200 justify-center items-center gap-y-2'>
                 <div>
-                    <h1 className='text-3xl font-bold'>Regestation</h1>
+                    <h1 className='text-3xl font-bold'>Registation</h1>
                 </div>
 
                 <label className="input input-bordered flex items-center gap-2">

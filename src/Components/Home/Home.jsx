@@ -27,7 +27,6 @@ const Home = () => {
             <div className='bg-gray-100'>
                 <Debolopars deboloparData={deboloparData}></Debolopars>
             </div>
-
         </div >
     );
 };
